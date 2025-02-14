@@ -1,0 +1,59 @@
+// Based on https://gist.github.com/MoOx/9137295
+@mixin button-reset() {
+  -webkit-tap-highlight-color: transparent;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-font-smoothing: inherit;
+
+  appearance: none;
+
+  cursor: pointer;
+
+  background: transparent;
+  border-radius: 0;
+  color: inherit;
+  border: none;
+  width: auto;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin button-color-scheme ($color) {
+  border: 1px solid var(--cell-button-border-color-#{$color});
+  background-color: var(--cell-button-bg-color-#{$color});
+
+  :deep(*) {
+    color: var(--cell-button-color-#{$color});
+    fill: var(--cell-button-color-#{$color});
+  }
+
+  &:hover {
+    border: 1px solid var(--cell-button-border-color-hover-#{$color});
+    background-color: var(--cell-button-bg-color-hover-#{$color});
+
+    :deep(*) {
+      color: var(--cell-button-color-hover-#{$color});
+      fill: var(--cell-button-color-hover-#{$color});
+    }
+  }
+
+  &:active {
+    border: 1px solid var(--cell-button-border-color-active-#{$color});
+    background-color: var(--cell-button-bg-color-active-#{$color});
+
+    :deep(*) {
+      color: var(--cell-button-color-active-#{$color});
+      fill: var(--cell-button-color-active-#{$color});
+    }
+  }
+
+  &:disabled {
+    border: 1px solid var(--cell-button-border-color-disabled-#{$color});
+    background-color: var(--cell-button-bg-color-disabled-#{$color});
+
+    :deep(*) {
+      color: var(--cell-button-color-disabled-#{$color});
+      fill: var(--cell-button-color-disabled-#{$color});
+    }
+  }
+}

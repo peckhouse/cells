@@ -1,0 +1,24 @@
+:root {
+  --global-input-shadow: 0px 1px 2px 0px color-mix(in srgb, var(--c-gray-120) 20%, transparent);
+
+  --global-border-radius-small: 3px;
+  --global-border-radius-medium: 6px;
+  --global-border-radius-large: 8px;
+
+  --global-font-family: 'Noto Sans', sans-serif;
+  --global-text-color: var(--c-gray-120);
+
+  --global-max-width: 1328px;
+  --global-min-width: 375px;
+  --global-gutter: 24px;
+  --global-spacing-unit: 8px;
+
+  --grid-columns-max: 12;
+
+  --header-bg-color: var(--c-gray-120);
+  --header-color: var(--c-white-100);
+  --header-height: 64px;
+
+  --header-burger-menu-size: 40px;
+  --header-burger-menu-border-radius: var(--global-border-radius-small);
+}

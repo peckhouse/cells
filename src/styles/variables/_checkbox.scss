@@ -1,0 +1,31 @@
+:root {
+  --cell-checkbox-shadow: inset var(--global-input-shadow);
+  --cell-checkbox-border-radius: var(--global-border-radius-small);
+  --cell-checkbox-size: 16px;
+
+  --cell-checkbox-border-width: 1px;
+
+  --cell-checkbox-color: var(--c-gray-80);
+  --cell-checkbox-color-hover: var(--c-green-100);
+  --cell-checkbox-color-checked: var(--c-green-100);
+  --cell-checkbox-color-checked-hover: var(--c-green-90);
+  --cell-checkbox-color-disabled: var(--c-gray-80);
+
+  --cell-checkbox-border: var(--cell-checkbox-border-width) solid var(--cell-checkbox-color);
+  --cell-checkbox-border-hover: var(--cell-checkbox-border-width) solid var(--cell-checkbox-color-hover);
+  --cell-checkbox-border-checked: var(--cell-checkbox-border-width) solid var(--cell-checkbox-color-checked);
+  --cell-checkbox-border-checked-hover: var(--cell-checkbox-border-width) solid var(--cell-checkbox-color-checked-hover);
+  --cell-checkbox-border-disabled: var(--cell-checkbox-border-width) solid var(--cell-checkbox-color-disabled);
+
+  --cell-checkbox-background-color: transparent;
+  --cell-checkbox-background-color-hover: transparent;
+  --cell-checkbox-background-color-checked: var(--cell-checkbox-color-checked);
+  --cell-checkbox-background-color-checked-hover: var(--cell-checkbox-color-checked-hover);
+  --cell-checkbox-background-color-disabled: var(--cell-checkbox-color-disabled);
+
+  --cell-checkbox-icon-color: var(--c-white-100);
+
+  --cell-checkbox-label-font-size: 14px;
+  --cell-checkbox-label-font-weight: 600;
+  --cell-checkbox-label-color: var(--c-gray-120);
+}

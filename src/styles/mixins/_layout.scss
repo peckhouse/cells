@@ -1,0 +1,26 @@
+@mixin display-grid (
+  $columns: repeat(var(--grid-columns-max), 1fr),
+  $max-width: var(--global-max-width),
+  $rows: auto,
+  $gap: var(--global-gutter),
+  $areas: null
+) {
+  grid-template-columns: $columns;
+  grid-template-rows: $rows;
+  max-width: $max-width;
+  display: grid;
+  gap: $gap;
+
+  padding-right: spacing(3);
+  padding-left: spacing(3);
+  margin-right: auto;
+  margin-left: auto;
+
+  @if $areas {
+    grid-template-areas: $areas;
+  }
+}
+
+@function spacing($multiplier: 1) {
+  @return calc($multiplier * var(--global-spacing-unit));
+}

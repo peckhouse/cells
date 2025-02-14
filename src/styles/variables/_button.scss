@@ -1,0 +1,111 @@
+:root {
+  // Colors: WHITE
+  --cell-button-bg-color-white: var(--c-white-100);
+  --cell-button-color-white: var(--c-gray-120);
+  --cell-button-border-color-white: var(--c-gray-80);
+
+  --cell-button-bg-color-hover-white: var(--c-white-100);
+  --cell-button-color-hover-white: var(--c-gray-120);
+  --cell-button-border-color-hover-white: var(--c-gray-100);
+
+  --cell-button-bg-color-active-white: var(--c-white-100);
+  --cell-button-color-active-white: var(--c-gray-120);
+  --cell-button-border-color-active-white: var(--c-gray-120);
+
+  --cell-button-bg-color-disabled-white: var(--c-gray-80);
+  --cell-button-color-disabled-white: var(--c-white-100);
+  --cell-button-border-color-disabled-white: var(--c-gray-80);
+
+  // Colors: GREEN
+  --cell-button-bg-color-green: var(--c-green-100);
+  --cell-button-color-green: var(--c-white-100);
+  --cell-button-border-color-green: var(--c-green-100);
+
+  --cell-button-bg-color-hover-green: var(--c-green-110);
+  --cell-button-color-hover-green: var(--c-white-100);
+  --cell-button-border-color-hover-green: var(--c-green-110);
+
+  --cell-button-bg-color-active-green: var(--c-green-120);
+  --cell-button-color-active-green: var(--c-white-100);
+  --cell-button-border-color-active-green: var(--c-green-120);
+
+  --cell-button-bg-color-disabled-green: var(--c-gray-80);
+  --cell-button-color-disabled-green: var(--c-white-100);
+  --cell-button-border-color-disabled-green: var(--c-gray-80);
+
+  // Colors: RED
+  --cell-button-bg-color-red: var(--c-red-100);
+  --cell-button-color-red: var(--c-white-100);
+  --cell-button-border-color-red: var(--c-red-100);
+
+  --cell-button-bg-color-hover-red: var(--c-red-110);
+  --cell-button-color-hover-red: var(--c-white-100);
+  --cell-button-border-color-hover-red: var(--c-red-110);
+
+  --cell-button-bg-color-active-red: var(--c-red-120);
+  --cell-button-color-active-red: var(--c-white-100);
+  --cell-button-border-color-active-red: var(--c-red-120);
+
+  --cell-button-bg-color-disabled-red: var(--c-gray-80);
+  --cell-button-color-disabled-red: var(--c-white-100);
+  --cell-button-border-color-disabled-red: var(--c-gray-80);
+
+  // Colors: GHOST WHITE
+  --cell-button-bg-color-ghost-white: transparent;
+  --cell-button-color-ghost-white: var(--c-gray-120);
+  --cell-button-border-color-ghost-white: transparent;
+
+  --cell-button-bg-color-hover-ghost-white: var(--c-gray-70);
+  --cell-button-color-hover-ghost-white: var(--c-gray-120);
+  --cell-button-border-color-hover-ghost-white: var(--c-gray-70);
+
+  --cell-button-bg-color-active-ghost-white: var(--c-gray-80);
+  --cell-button-color-active-ghost-white: var(--c-gray-120);
+  --cell-button-border-color-active-ghost-white: var(--c-gray-80);
+
+  --cell-button-bg-color-disabled-ghost-white: transparent;
+  --cell-button-color-disabled-ghost-white: var(--c-gray-90);
+  --cell-button-border-color-disabled-ghost-white: transparent;
+
+  // Colors: GHOST RED
+  --cell-button-bg-color-ghost-red: transparent;
+  --cell-button-color-ghost-red: var(--c-gray-120);
+  --cell-button-border-color-ghost-red: transparent;
+
+  --cell-button-bg-color-hover-ghost-red: var(--c-red-60);
+  --cell-button-color-hover-ghost-red: var(--c-gray-120);
+  --cell-button-border-color-hover-ghost-red: var(--c-red-60);
+
+  --cell-button-bg-color-active-ghost-red: var(--c-red-80);
+  --cell-button-color-active-ghost-red: var(--c-gray-120);
+  --cell-button-border-color-active-ghost-red: var(--c-red-80);
+
+  --cell-button-bg-color-disabled-ghost-red: transparent;
+  --cell-button-color-disabled-ghost-red: var(--c-gray-90);
+  --cell-button-border-color-disabled-ghost-red: transparent;
+
+  // Sizes
+  --cell-button-height-small: 24px;
+  --cell-button-height-medium: 32px;
+  --cell-button-height-large: 40px;
+
+  --cell-button-font-weight: 700;
+
+  --cell-button-font-size-small: 12px;
+  --cell-button-font-size-medium: 13px;
+  --cell-button-font-size-large: 14px;
+
+  --cell-button-padding-small: 0 8px;
+  --cell-button-padding-medium: 0 12px;
+  --cell-button-padding-large: 0 12px;
+
+  --cell-button-icon-size-small: 16px;
+  --cell-button-icon-size-medium: 20px;
+  --cell-button-icon-size-large: 20px;
+
+  --cell-button-icon-padding-small: 0 3px;
+  --cell-button-icon-padding-medium: 0 5px;
+  --cell-button-icon-padding-large: 0 9px;
+
+  --cell-button-border-radius: var(--global-border-radius-medium);
+}
